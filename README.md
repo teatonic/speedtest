@@ -1,0 +1,1 @@
+nohup ./speedtest.sh &
