@@ -7,7 +7,7 @@ do
         TIMESTP=`date +%Y-"%m-%d %H:%M:%S"`
         SPEED=`fast`
         echo "$SPEED;$TIMESTP" >> $LOGFILE 
-	sleep 30
+	sleep $1
 done
 
 echo "----------End-------------  " > $LOGFILE 
