@@ -10,5 +10,5 @@ do
 	sleep $1
 done
 
-echo "----------End-------------  " > $LOGFILE 
+echo "----------End-------------  " >> $LOGFILE 
 
