@@ -1,6 +1,6 @@
 #!/bin/bash
 RES_FILE=speedtest.csv
-LOGFILE="speedtest_`date +%Y_"%m_%d_%H%m%S"`.log"
+#LOGFILE="speedtest_`date +%Y_"%m_%d_%H%m%S"`.log"
 #echo "---------------- Start-------------- " > $LOGFILE 
 
 LOCK_FILE=speedtest.lck
